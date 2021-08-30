@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.row{
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.heading{
+    color:black;
+    background-color: white;
+}
+
+.scoreboard{
+    padding-top: 4rem;
+}
+
+.score{ 
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 2rem;
+    border: 10px white solid;
+    position: relative;
+    width: 45%;
+    font-size:3.5rem;
+    text-align: center;
+}
+
+.user-score,.computer-score{
+    padding: 1rem;
+    /* font-size:4rem; */
+}
+
+.badge{
+    background-color: tomato;
+    font-size: 1rem;
+    position: absolute;
+}
+
+.user-badge{
+    top:25px;
+    left:-45px;
+}
+
+.computer-badge{
+    top:25px;
+    right:-70px;
+}
+
+.text{
+    padding: 2rem;
+    font-size: 3rem;
+    height: 120px;
+}
+
+.btn{
+    margin: 1rem;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.img{
+    width: 90px;
+    padding: 0.1rem;
+}
+
+.footer{
+    position:fixed;
+    width: 100vw;
+    top:95vh;
+    left:0vw;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: black;
+    background-color: white;
+}
+
+@media (max-width:650px) {
+    .scoreboard{
+        padding-top: 0;
+    }
+    .score{
+        width: 70%;
+    }
+    .badge{
+        font-size: 0.8rem;
+    }
+    .user-badge{
+        top:30px;
+        left:-35px;
+    }
+    .computer-badge{
+        top:30px;
+        right:-60px;
+    }
+    .btn{
+        margin: 0.5rem;
+    }
+}
